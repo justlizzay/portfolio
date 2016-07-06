@@ -41,7 +41,7 @@
 	text-align: left;
 	vertical-align: top;
 	margin-top: 0px;
-	margin-bottom:14px;	
+	margin-bottom:12px;	
 }
 
 img {
@@ -59,8 +59,8 @@ margin-right:13px;
 ::selection { background: #5af; color: #fff; text-shadow: none; }
 
 p {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
 	font-size: 16px;
 	line-height: 24px;
 	text-align: left;
@@ -69,12 +69,12 @@ p {
 }
 
 h1 {
-	font-family: 'Raleway', Helvetica,  sans-serif;
-    font-weight: 600; 
+	font-family: 'Raleway', Century Gothic, Helvetica,  sans-serif;
+    font-weight: 500; 
 	font-size: 30px;
 	text-align: left;
 	color: rgba(170,78,215, 0.80);
-    text-shadow: 1px 1px 3px #ccc, 0 0 0 #000, 1px 1px 3px #fff;
+    text-shadow: 1px 1px 3px #def, 0 0 0 #000, 1px 1px 3px #fff;
 	margin-bottom: 0px;
 }
 
@@ -87,20 +87,20 @@ h1 {
 }
 
 h2 {
-	font-family: 'Raleway', Helvetica,  sans-serif;
-    font-weight: 600; 
+	font-family: 'Raleway', Century Gothic, Helvetica,  sans-serif;
+    font-weight: 500; 
 	font-size: 30px;
 	text-align: center;
 	color: rgba(170,78,215, 0.80);
-    text-shadow: 1px 1px 3px #ccc, 0 0 0 #000, 1px 1px 3px #fff;
+    text-shadow: 1px 1px 3px #def, 0 0 0 #000, 1px 1px 3px #fff;
 	margin-top: 0px;
 	margin-bottom: 10px;
 }
 
 .footer {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
-	font-size: 14px;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
+	font-size: 12px;
 	text-align: center;
 	color:#bbbbbb;
 	margin-top:18px;
@@ -108,60 +108,56 @@ h2 {
 }
 
 .captionPurple {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
-	font-size: 14px;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
+	font-size: 12px;
 	text-align: left;
 	color:#ffffff;
-	padding: 10px;
+	padding: 8px;
 	display:block;
 	background-color:#aa4ed7;
 }
 
 .captionGreen {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
-	font-size: 14px;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
+	font-size: 12px;
 	text-align: left;
 	color:#ffffff;
-	padding: 10px;
+	padding: 8px;
 	display:block;
 	background-color:#ade15c;
 }
 
 .captionBlue {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
-	font-size: 14px;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
+	font-size: 12px;
 	text-align: left;
 	color:#ffffff;
-	padding: 10px;
+	padding: 8px;
 	display:block;
 	background-color:#15bbdf;
 }
 
 .captionSumm {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
-	font-size: 14px;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
+	font-size: 12px;
 	text-align: left;
 	color:#767676;
-	padding: 10px;
+	padding: 8px;
 	display:block;
 	background-color:#f2f2f2;
 }
 
 .bold {
-    font-weight: 600;
-}
-
-.center {
-	text-align:center;
+    font-weight: 500;
 }
 
 #portNav {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
 	font-size: 14px;
 	text-align: center;
 	text-transform:uppercase;
@@ -172,9 +168,9 @@ h2 {
 }
 
 .brandNav {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
-	font-size: 14px;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
+	font-size: 12px;
 	text-align: center;
 	text-transform:uppercase;
 	color:#5a5a5a;
@@ -183,9 +179,9 @@ h2 {
 	
 }
 .brandNav a:link {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
-	font-size: 14px;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
+	font-size: 12px;
 	text-align: center;
 	text-transform:uppercase;
 	color:#5a5a5a;
@@ -193,18 +189,18 @@ h2 {
 }
 
 .brandNav a:visited {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
-	font-size: 14px;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
+	font-size: 12px;
 	text-align: center;
 	text-transform:uppercase;
 	color:#5a5a5a;
 }
 
 .brandNav a:active {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
-	font-size: 14px;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
+	font-size: 12px;
 	text-align: center;
 	text-transform:uppercase;
 	color:#5a5a5a;
@@ -212,17 +208,17 @@ h2 {
 }
 
 .brandNav a:hover {
-	font-family: 'Raleway', Helvetica, sans-serif;
-    font-weight: 600; 
-	font-size: 14px;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 500; 
+	font-size: 12px;
 	text-align: center;
 	text-transform:uppercase;
 	color:#000000;
 }
 
 a:link {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
 	font-size: 14px;
 	text-align: center;
 	text-transform:uppercase;
@@ -231,8 +227,8 @@ a:link {
 }
 
 a:visited {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
 	font-size: 14px;
 	text-align: center;
 	text-transform:uppercase;
@@ -240,8 +236,8 @@ a:visited {
 }
 
 a:active {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight:300;
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 300; 
 	font-size: 14px;
 	text-align: center;
 	text-transform:uppercase;
@@ -250,8 +246,8 @@ a:active {
 }
 
 a:hover {
-	font-family: 'Raleway', Helvetica, sans-serif;
-    font-weight: 600; 
+	font-family: 'Raleway', Century Gothic, Helvetica, sans-serif;
+    font-weight: 500; 
 	font-size: 14px;
 	text-align: center;
 	text-transform:uppercase;
@@ -268,62 +264,25 @@ a:hover {
 
 /* ////////////// images ///////////////// */
 
-
-
-/* ///////////// form ////////////// */
-
-label {
-	font-family: 'Raleway', Helvetica, sans-serif;
-    font-weight: 600; 
-	font-size: 14px;
-	color:#767676;
-    display:block;
-    margin-top:20px;
-}
-
-form {
-    margin:0 auto;
-    width:469px;
-}
-
-/* Style the text boxes */
-input, textarea {
-	font-family: 'Raleway', Helvetica, sans-serif;
-    font-weight: 300; 
-	font-size: 14px;
-	width:449px;
-	height:20px;
-	background:#efefef;
-	border:0px solid #dedede;
-	padding:10px;
-	margin-top:3px;
-	font-size:14px;
-	color:#3a3a3a;
-}
-
-textarea {
-	height:100px;
-}
-
-input:focus, textarea:focus {
-    border:1px solid #666;
-}
-
-#submit {
-    width:160px;
-    height:60px;
-    background: transparent url('../images/btnBlue.gif') no-repeat 0 0;
-    border:none;
-    margin-top:15px;
-	margin-left:160px;
-    cursor:pointer;
-	text-transform:uppercase;
-	color:#ffffff;
-}
-
-	#submit:hover {
-	font-weight: 600; 
-	background-position: /*bottom right*/0 -60px;
-	text-shadow: 1px 1px 2px #595959; 
-    outline: none; /* hide dotted outline in Firefox */
+#web_NARI a {
+	text-indent: -9999em;
+	background: url('../images/portfolio/web_NARI.jpg') no-repeat;
+	background-position: center top;
+	width: 474px;
+	height: 300px;
+	display: block;
+	overflow: hidden; /* For nested divs in Safari */
 	}
+
+/*  IE 5 hack \*/
+#web_NARI a {overflow: hidden;}
+/* end hack */ 
+	
+#web_NARI a:hover {
+	background-position: center bottom;
+}
+
+/* /////////////main content formatting////////////// */
+
+
+
