@@ -1,0 +1,72 @@
+/* BASE STYLES
+============== */
+body {
+  padding: 0;
+  min-height: 600px;
+  font-family: 'Montserrat', Century Gothic, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 28px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+h1.hidden {
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+}
+
+.reverse h1, .reverse p {
+  color: white;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 21px;
+  text-align: center;
+  color: black;
+  margin-top: 0px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.reverse h2 {
+  color: white;
+  text-shadow: 0px 0px 3px #fff;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  color: #353535;
+  margin-top: 0px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
