@@ -1,0 +1,96 @@
+/* SECTION FEATURED
+=================== */
+
+.featured:before {
+  width: 100%;
+  height: 120px;
+  content: " ";
+  position: absolute;
+  background: url(../images/bg-sec1-bottom-intro.png) center center no-repeat;
+}
+
+.featured {
+  background: url(../images/bg-featured.gif) repeat center;
+}
+
+.featured .container {
+  min-height: 500px;
+}
+
+.featured .item {
+  max-width: 720px;
+  margin: 50px auto;
+  line-height: 0;
+  filter: drop-shadow(0px 0px 5px rgb(0 0 0 / .35));
+  position: relative;
+  z-index: 1;
+  margin-top: 60px;
+}
+
+.featured img {
+  border: solid 10px white;
+  max-width: calc(100% - 20px);
+}
+
+h2.project-name span {
+    background: #dfbb3f;
+    z-index: 5;
+    padding: 12px 14px;
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+    color: black;
+    text-shadow: none;
+}
+
+@media only screen and (max-width: 480px) {
+  h2.project-name span {
+    display: block;
+    line-height: 1.5;
+  }
+}
+
+.card-body {
+    padding: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .card-body {
+      padding: 20px;
+  }
+}
+
+.card-body p {
+    color: white;
+    text-align: left;
+}
+.card-body p:last-child {
+    margin-bottom: 0;
+}
+
+.card-body p span {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-body p.center {
+    text-align: center;
+}
+
+.card-body p.center a {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card.project-details {
+    border: solid 1px #dfbb3f;
+    padding-top: 25px;
+    background: radial-gradient(circle at top, rgba(50,50,50,1) 0%, rgba(0,0,0,1) 80%);
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(0px 0px 5px rgb(0 0 0 / .35));
+}
