@@ -64,6 +64,7 @@ body {
 
 .featured {
   background: url(../images/bg-featured.gif) repeat center;
+  padding-bottom: 40px;
 }
 
 .featured .container {
@@ -77,11 +78,47 @@ body {
   filter: drop-shadow(0px 0px 5px rgb(0 0 0 / .35));
   position: relative;
   z-index: 1;
+  margin-top: 60px;
 }
 
 .featured img {
   border: solid 10px white;
   max-width: calc(100% - 20px);
+}
+
+.card-body {
+    padding: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .card-body {
+      padding: 20px;
+  }
+}
+
+.card-body p {
+    color: white;
+    text-align: left;
+}
+.card-body p:last-child {
+    margin-bottom: 0;
+}
+
+.card-body p span {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card.project-details {
+    border: solid 1px #dfbb3f;
+    padding-top: 25px;
+    background: radial-gradient(circle at top, rgba(50,50,50,1) 0%, rgba(0,0,0,1) 80%);
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(0px 0px 5px rgb(0 0 0 / .35));
 }
 
 /* SECTION 3 PORTFOLIO
@@ -92,7 +129,7 @@ body {
   height: 120px;
   content: " ";
   position: absolute;
-  margin-top: -110px;
+  margin-top: -60px;
   background: url(../images/bg-sec2-bottom-featured.png) center center no-repeat;
 }
 
@@ -164,6 +201,10 @@ body {
   transform: rotate(180deg);
 }
 
+.reverse .title-plate {
+  color: black;
+}
+
 /* SECTION 4 FUN FACTS
 ====================== */
 
@@ -217,7 +258,7 @@ body {
 }
 
 .contact {
-  background: url(../images/bg-sec5-contact.jpg) no-repeat center;
+  background: url(../images/bg-sec5-contact.jpg) no-repeat center bottom;
 }
 
 .contact .container {
