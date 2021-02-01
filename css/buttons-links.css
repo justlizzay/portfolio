@@ -1,0 +1,46 @@
+.contact-links {
+  text-align: center;
+  padding: 0;
+  margin: 40px 28px;
+}
+
+.contact-links li {
+  display: inline-block;
+  border-right: solid 1px white;
+  padding-right: 4px;
+}
+
+.contact-links li:last-child {
+  border-right: none;
+}
+
+.contact-links a {
+    color: #fff;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    background-position: 0 100%;
+    background-size: 100% 200%;
+    transition: all .2s;
+    padding: 10px 12px;
+}
+
+.contact-links a:hover,
+.contact-links a:focus {
+    background-position: 0 0;
+    text-decoration: none;
+}
+
+.modal-button {
+    position: relative;
+    background: #4d2562;
+    padding: 24px;
+    text-align: center;
+    margin-left: calc(50% - 106px);
+    top: 50%;
+    opacity: 0;
+    transition: opacity .5s;
+    color: white;
+}
+
+.md-trigger:hover .modal-button {
+  opacity: 1;
+}
