@@ -10,6 +10,21 @@
   padding-right: 4px;
 }
 
+@media only screen and (max-width: 480px) {
+  .contact h1 {
+    margin-top: 40px;
+  }
+  .contact-links {
+    margin: 40px 28px;
+  }
+  .contact-links li {
+    display: block;
+    border-right: none;
+    padding-right: 0;
+    margin-bottom: 28px;
+  }
+}
+
 .contact-links li:last-child {
   border-right: none;
 }
@@ -27,20 +42,4 @@
 .contact-links a:focus {
     background-position: 0 0;
     text-decoration: none;
-}
-
-.modal-button {
-    position: relative;
-    background: #4d2562;
-    padding: 24px;
-    text-align: center;
-    margin-left: calc(50% - 106px);
-    top: 50%;
-    opacity: 0;
-    transition: opacity .5s;
-    color: white;
-}
-
-.md-trigger:hover .modal-button {
-  opacity: 1;
 }
