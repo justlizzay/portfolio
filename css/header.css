@@ -1,0 +1,123 @@
+.header {
+  background: radial-gradient(circle at top, rgba(37,21,46,1) 0%, rgba(91,55,109,1) 80%);
+  text-align: center;
+  height: 240px;
+}
+
+.st3{opacity:.5;fill:none;stroke:#fff;stroke-width:3.1677;stroke-miterlimit:10}
+
+.st4{fill:#fff}
+
+#LB-LOGO {max-width: 205px; margin: 36px;}
+
+#diamond-shape {
+  animation:
+    diamond-shape-animation 1s ease-out forwards,
+    pulse-animation 5s infinite;
+  transform-origin: 205px 125px;
+}
+
+@keyframes diamond-shape-animation {
+  0% {
+		opacity: 0;
+    transform:  rotateY(0deg) rotate(45deg) scale(.05);
+	}
+  100% {
+		opacity: .25;
+    transform: rotateY(720deg) rotate(45deg) translate(-20px,11px) scale(1.03);
+	}
+}
+
+@keyframes pulse-animation {
+  0%, 100% {
+    opacity: .05;
+  }
+  50% {
+    opacity: .25;
+  }
+}
+
+#upper-diamond {
+	animation: upper-diamond-animation .65s ease-out forwards;
+  animation-delay: .75s;
+	opacity: 0;
+	transform: scale(.25);
+	transform-origin: center 105px;
+}
+
+@keyframes upper-diamond-animation {
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+#lower-diamond {
+	animation: lower-diamond-animation .65s ease-out forwards;
+  animation-delay: 1.5s;
+	opacity: 0;
+  transform: translate(0px,-12px);
+	transform-origin: bottom;
+}
+
+@keyframes lower-diamond-animation {
+	100% {
+		opacity: 1;
+    transform: translate(0px,0px);
+	}
+}
+
+#left-lower-line,
+#right-lower-line {
+  stroke-dasharray: 500;
+  stroke-dashoffset: -500;
+  animation: line-dash 1.5s linear forwards;
+}
+
+#left-lower-line {
+  animation-delay: .5s;
+}
+
+#right-lower-line {
+  animation-delay: 1s;
+}
+
+@keyframes line-dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.icon-letter {
+  animation: icon-letter-animation .4s ease-out forwards;
+	opacity: 0;
+	transform: scale(.25);
+	transform-origin: center 100px;
+}
+
+#logo-L {
+  animation-delay: 1.75s;
+}
+
+#logo-B {
+  animation-delay: 2.25s;
+}
+
+@keyframes icon-letter-animation {
+  0% {
+		opacity: 0;
+    transform:  scale(1.5);
+	}
+  100% {
+		opacity: 1;
+    transform: scale(1);
+	}
+}
+
+.LB-logo-name {
+  animation: lower-diamond-animation .75s ease-out forwards;
+  animation-delay: 2.75s;
+	opacity: 0;
+  transform: translate(0px,-20px);
+	transform-origin: bottom;
+}
