@@ -1,27 +1,21 @@
 /* SECTION FEATURED
 =================== */
-
-.featured:before {
-  width: 100%;
-  height: 120px;
-  content: " ";
-  position: absolute;
-  background: url(../images/bg-sec1-bottom-intro.png) center center no-repeat;
-}
-
 .featured {
-  background: url(../images/bg-featured.gif) repeat center;
+  background: #292f42;
+  padding-top: 40px;
 }
 
 .featured .container {
   min-height: 500px;
+  margin-top: -180px;
+  padding-bottom: 52px;
 }
 
 .featured .item {
   max-width: 720px;
   margin: 50px auto;
   line-height: 0;
-  filter: drop-shadow(0px 0px 5px rgb(0 0 0 / .35));
+  filter: drop-shadow(0px 0px 6px rgb(0 0 0 / .20));
   position: relative;
   z-index: 1;
   margin-top: 60px;
@@ -78,15 +72,26 @@ h2.project-name span {
 }
 
 .card-body p.center a {
-    color: white;
     font-weight: 600;
     font-size: 14px;
+    color: #fff;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    background-position: 0 100%;
+    background-size: 100% 200%;
+    transition: all .2s;
+    padding: 10px 12px;
+}
+
+.card-body p.center a:hover,
+.card-body p.center a:focus {
+    background-position: 0 0;
+    text-decoration: none;
 }
 
 .card.project-details {
     border: solid 1px #dfbb3f;
     padding-top: 25px;
-    background: radial-gradient(circle at top, rgba(50,50,50,1) 0%, rgba(0,0,0,1) 80%);
+    background: rgba(72,85,113,1);
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
