@@ -1,0 +1,11 @@
+/* SECTION CASE STUDIES
+======================= */
+
+.case-study .section-intro .container {
+    max-width: 1000px;
+}
+
+.intro.case_study h1 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}

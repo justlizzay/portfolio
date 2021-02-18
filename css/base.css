@@ -81,5 +81,36 @@ p {
   width: 100%;
   z-index: 10;
   background: #e1e1e1;
-  box-shadow: 0px 0px 8px 4px rgb(0 0 0 / 40%);
+  -moz-box-shadow:    0px 0px 8px 4px rgb(0 0 0 / 40%);
+  -webkit-box-shadow: 0px 0px 8px 4px rgb(0 0 0 / 40%);
+  box-shadow:         0px 0px 8px 4px rgb(0 0 0 / 40%);
+}
+
+.lt-bg {
+  border-top: solid 8px #c3c5ca;
+  border-bottom: solid 8px #c3c5ca;
+  -moz-box-shadow:    0px 0px 12px 6px rgb(0 0 0 / 20%);
+  -webkit-box-shadow: 0px 0px 12px 6px rgb(0 0 0 / 20%);
+  box-shadow:         0px 0px 12px 6px rgb(0 0 0 / 20%);
+  background: white;
+}
+
+.header + .lt-bg {
+    border-top: none;
+}
+
+.blue-bg {
+  background: #485571;
+}
+
+.blue-bg--gradient {
+  background: radial-gradient(circle at top, rgba(145,152,167,1) 0%, rgba(72,85,113,1) 80%);
+}
+
+.dk-blue-bg {
+  background: #292f42;
+}
+
+.darkest-blue-bg--gradient {
+  background: radial-gradient(circle at bottom, rgba(57,61,72,1) 0%, rgba(32,37,51,1) 90%);
 }
