@@ -1,16 +1,12 @@
 /* SECTION PORTFOLIO
 ==================== */
 
-.portfolio:before {
-  width: 100%;
-  height: 120px;
-  content: " ";
-  position: absolute;
-  background: url(../images/bg-sec2-bottom-featured.png) center center no-repeat;
-}
-
 .portfolio {
-  margin-top: -120px;
+  border-top: solid 8px #c3c5ca;
+  margin-top: -140px;
+  background: white;
+  border-bottom: solid 8px #c3c5ca;
+  padding-bottom: 80px;
 }
 
 .portfolio .container {
@@ -56,31 +52,29 @@
   margin: 0 auto;
   z-index: 5;
   position: relative;
-  margin-top: -40px;
+  margin-top: -26px;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   height: 28px;
   line-height: 28px;
-}
-
-.title-plate:before, .title-plate:after {
-  width: 28px;
-  height: 28px;
-  content: " ";
-  position: absolute;
-  background: url(../images/title-plate-ends.svg) center center no-repeat;
-}
-
-.title-plate:before {
-  margin-left: -28px;
-}
-
-.title-plate:after {
-  margin-right: 28px;
-  transform: rotate(180deg);
+  padding: 0 10px;
 }
 
 .reverse .title-plate {
   color: black;
+}
+
+.gallery .title-plate {
+    margin-top: -34px;
+    top: -14px;
+}
+
+@media only screen and (max-width: 360px) {
+  .gallery .title-plate {
+      margin-top: 0px;
+      top: -4px;
+      width: 100%;
+      padding: 0;
+  }
 }

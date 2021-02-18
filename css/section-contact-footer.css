@@ -1,23 +1,13 @@
 /* SECTION CONTACT
 ================== */
 
-.contact:before {
-  width: 100%;
-  height: 137px;
-  content: " ";
-  position: absolute;
-  margin-top: -22px;
-  background: url(../images/bg-sec4-bottom-fun-facts.png) center center no-repeat;
-}
-
 .contact {
-  background: url(../images/bg-sec5-contact.jpg) no-repeat center bottom;
+  background: radial-gradient(circle at bottom, rgba(57,61,72,1) 0%, rgba(32,37,51,1) 90%);
+  border-top: solid 4px #dfbb3f;
 }
 
 .contact .container {
-  margin-top: -58px;
-  padding-top: 120px;
-  padding-bottom: 40px;
+  padding: 40px;
 }
 
 footer p {

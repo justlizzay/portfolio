@@ -1,5 +1,9 @@
 /* BASE STYLES
 ============== */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   min-height: 600px;
@@ -69,4 +73,13 @@ p {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: #e1e1e1;
+  box-shadow: 0px 0px 8px 4px rgb(0 0 0 / 40%);
 }
