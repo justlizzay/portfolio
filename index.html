@@ -52,6 +52,7 @@
         <li><a href="#featured"><span>Featured Work</span></a></li>
         <li><a href="#portfolio"><span>Portfolio</span></a></li>
         <li><a href="#facts"><span>Fun Facts</span></a></li>
+        <li><a href="#contact"><span>Contact Me</span></a></li>
       </ul>
     </div>
 
@@ -77,16 +78,14 @@
         <img src="images/featured-tv-plus-room-mockup.jpg" class="img-fluid featured" alt="TDS TV+ Product Launch Image">
       </div>
       <div class="card featured-details" data-aos="fade-up">
-        <p class="title-plate">
-          <span>Project Details</span>
-        </p>
         <div class="card-body">
+          <h3>Project Details</h3>
           <p><span>Deliverables:</span> Web/UI Design. HTML/CSS Development and Review. Page Flows. User Journeys. Technical Requirements.</p>
           <p><span>Summary:</span> Using concepts and some artwork provided by another team, my primary task was creating a website experience that matched the print and video collateral and would highlight the latest technological features offered by TDS’
             newest TV product. In addition to that, I worked closely with the project managers and software engineers to define requirements and provide HTML/CSS for some of the features that came with the upgraded product.</p>
           <p><span>Collaborators:</span> Graphic Designers, Copywriters, Marketing Managers, Product Management, Web Analyst, Software Engineers, Project Managers.</p>
           <p class="center">
-            <a href="case-study--tds-tv-plus.html">View TDS TV+ Case Study</a>
+            <a href="https://tdstelecom.com/shop/tv/tdstv-plus.html" target="_blank">View TDS TV+ Product Pages</a>
           </p>
         </div>
       </div>
@@ -97,10 +96,8 @@
         <img src="images/featured-tds-careers-room-mockup.jpg" class="img-fluid featured" alt="TDS Telecom Careers Microsite Image">
       </div>
       <div class="card featured-details" data-aos="fade-up">
-        <p class="title-plate">
-          <span>Project Details</span>
-        </p>
         <div class="card-body">
+          <h3>Project Details</h3>
           <p><span>Deliverables:</span> Web Design. HTML/CSS Development and Review. User Testing. Content Strategy.</p>
           <p><span>Summary:</span> The tdstelecom.com/careers site design was updated to reflect a more contemporary look and feel and to showcase images of real TDS employees in order to provide a glimpse of actual experiences they’ve had with the company.
             The main site was also modified to make it easier for applicants to start job searching. Much of the existing content was pared down so that potential recruits are able to access the information they need as quickly as possible.</p>
@@ -117,17 +114,15 @@
         <img src="images/featured-tdstelecom-room-mockup.jpg" class="img-fluid featured" alt="TDS Telecom e-Commerce Site Image">
       </div>
       <div class="card featured-details" data-aos="fade-up">
-        <p class="title-plate">
-          <span>Project Details</span>
-        </p>
         <div class="card-body">
+          <h3>Project Details</h3>
           <p><span>Deliverables:</span> Web/UI Design. HTML/CSS Development and Review. Page Flows. Wireframes. Interactive Prototypes. User Journeys. Technical Requirements. AEM Component Requirements. Wiki Documentation.</p>
           <p><span>Summary:</span> The tdstelecom.com redesign was an enormous undertaking that took a lot of teams and a few years before it was considered complete. Not only was the site moving to a different Content Management System (CMS), it needed
             to become responsive and able to adapt to any screen width without losing the integrity of the experience.</p>
           <p><span>Collaborators:</span> This list includes but is definitely not limited to Copywriters, Marketing Managers, Product Management, Web Analyst, Front End Developers, Software Engineers, and Project Managers. Departments consulted for site
             content include Customer Service, Repair, Legal, and Public Relations.</p>
           <p class="center">
-            <a href="https://tdstelecom.com/" target="_blank">View TDS Telecom Website</a>
+            <a href="case-study--tds-telecom-address-entry.html">View Address Entry Case Study</a>
           </p>
         </div>
       </div>
@@ -147,6 +142,12 @@
           <p class="title-plate">
             <span>Agent Portal Wireframes</span>
           </p>
+          <!-- Modal HTML embedded directly into document -->
+          <!-- <div id="portfolio1" class="modal has-image">
+            <p class="modal-heading">Agent Portal Wireframes</p>
+            <img src="images/portfolio-agent-flow-showcase.jpg" class="img-fluid" alt="Agent Portal Wireframes">
+            <a href="#" rel="modal:close" class="btn">Close</a>
+          </div> -->
         </div>
         <div class="card" data-aos="fade-up">
           <img src="images/portfolio-rms-flow-showcase.jpg" class="img-fluid porfolio" alt="RMS Internal Site Page Flow Image">
@@ -167,7 +168,7 @@
           </p>
         </div>
         <div class="card" data-aos="fade-up">
-          <img src="images/portfolio-bmma-site-showcase.jpg" class="img-fluid" alt="BMMA Website Design Image">
+          <img src="images/portfolio-bmma-site-showcase.jpg" class="img-fluid porfolio" alt="BMMA Website Design Image">
           <p class="title-plate">
             <span>BMMA Website Design</span>
           </p>
@@ -222,6 +223,8 @@
 
   <section class="section-contact darkest-blue-bg--gradient">
 
+    <a id="contact" class="anchor"></a>
+
     <div class="container reverse" data-aos="fade" data-aos-duration="1200">
       <h1>Contact Me</h1>
       <ul class="contact-links">
@@ -243,8 +246,7 @@
 
   </section>
 
-
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript">
@@ -272,13 +274,16 @@
 
     $(window).resize(function() {
       var width = $(document).width();
-      if (width >= 386) {
+      if (width >= 566) {
         $("#navbar").css("display", "block");
       } else {
         $("#navbar").css("display", "none");
       }
     });
   </script>
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.modal.min.css" />
 
 </body>
 

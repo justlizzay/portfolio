@@ -8,11 +8,12 @@
   margin: 0 auto;
   text-align: center;
   border-top: solid 3px #dfbb3f;
+  background: #e1e1e1;
 }
 .nav li {
   display: inline-block;
   background-color: #e1e1e1;
-  margin: 0 6px;
+  margin: 0 -3px;
 }
 
 .nav>li>a {
@@ -20,8 +21,8 @@
   background-position: 0 100%;
   background-size: 100% 200%;
   transition: all .2s;
-  padding: 16px 12px;
-  width: 140px;
+  padding: 16px 20px;
+  width: auto;
   display: block;
   color: #2b3349;
   text-transform: uppercase;
@@ -34,13 +35,6 @@
   background-position: 0 0;
   text-decoration: none;
   color: black;
-}
-
-@media only screen and (max-width: 560px) {
-    .nav>li>a {
-        width: auto;
-    }
-
 }
 
 .button.menu {
@@ -68,7 +62,7 @@
   color: white;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 580px) {
   #navbar {
     display:none;
     border-top: none;

@@ -1,11 +1,115 @@
 /* SECTION CASE STUDIES
 ======================= */
 
-.case-study .section-intro .container {
-    max-width: 1000px;
+.case-study .container {
+  max-width: 1000px;
+  padding-top: 80px;
 }
 
-.intro.case_study h1 {
-    margin-top: 100px;
-    margin-bottom: 40px;
+.case-study .section-intro.lt-bg {
+  padding-bottom: 60px;
+}
+
+.case-study .section-intro h1 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: #485571;
+  text-transform: initial;
+}
+
+.case-study .section-intro h1 span {
+  color: #2b3349;
+}
+
+.case-study .nav>li>a {
+  width: auto;
+  padding: 16px;
+}
+
+.img-fluid.infographic {
+  display: none;
+  margin: 40px auto;
+}
+
+@media only screen and (min-width: 820px) {
+  .img-fluid.infographic.visible-lg {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 819px) and (min-width: 521px) {
+  .img-fluid.infographic.visible-md {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .img-fluid.infographic.visible-sm {
+    display: block;
+  }
+}
+
+.case-study h2 {
+  color: #2b3349;
+  font-size: 36px;
+  margin-top: 40px;
+  margin-bottom: 28px;
+}
+
+.case-study .reverse h2 {
+  color: white;
+  text-shadow: none;
+}
+
+.section-role.blue-bg {
+  padding-bottom: 40px;
+}
+
+.case-study .section-role h2 {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.reverse .card h3 {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin-top: 16px;
+  text-shadow: 0px 0px 3px #fff;
+  font-size: 20px;
+}
+
+.case-study .reverse .card {
+  background: rgba(43, 51, 73, .75);
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto 80px auto;
+  text-align: center;
+  position: relative;
+}
+
+.section-role .card p {
+  text-align: left;
+}
+
+.section-results .call-out {
+  margin-bottom: 20px;
+}
+
+.section-results.lt-bg {
+  border-bottom: none;
+  padding-bottom: 60px;
+  box-shadow: none;
+}
+
+.call-out-box {
+  background: #485571;
+  padding: 40px;
+  max-width: 800px;
+  margin: 60px auto 40px;
+  color: white;
+}
+
+.case-study .section-contact .container {
+  padding-top: 40px;
 }

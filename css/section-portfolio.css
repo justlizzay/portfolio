@@ -33,7 +33,7 @@
   margin: 0 auto;
 }
 
-.gallery .card:before {
+/* .gallery .card:before {
   content: '';
   position: absolute;
   left: 16px;
@@ -41,7 +41,7 @@
   width: calc(100% - 33px);
   height: calc(100% - 31px);
   border: 1px solid #dfbb3f;
-}
+} */
 
 .title-plate {
   background: #dfbb3f;
@@ -63,7 +63,7 @@
 }
 
 .gallery .title-plate {
-    margin-top: -34px;
+    margin-top: -22px;
     top: -14px;
 }
 
@@ -74,4 +74,9 @@
       width: 100%;
       padding: 0;
   }
+}
+
+img.porfolio {
+    border-bottom: solid 6px #dfbb3f;
+    border-top: solid 4px #dfbb3f;
 }

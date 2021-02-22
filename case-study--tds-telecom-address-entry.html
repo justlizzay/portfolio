@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDS Telecom Address Entry Experience Case Study | Liz Brungraber</title>
+  <meta name="description" content="Case Study on TDS Telecom Address Entry Experience by Liz Brungraber, a Madison WI based UI/UX Designer" />
+  <meta name="keywords" content="web design, case study, madison, wisconsin, ux, ui, creative, user experience, user interface designer, HTML CSS developer" />
+  <meta name="author" content="Liz Brungraber" />
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+  <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="case-study">
+
+  <section class="header blue-bg--gradient">
+    <svg version="1.1" id="LB-LOGO" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 410 250" xml:space="preserve">
+      <path id="diamond-shape" class="LB-logo-icon" transform="rotate(0)" opacity=".15" fill="#fff" d="M138.36 27.86h133.28v133.28H138.36z"/>
+      <path id="upper-diamond" class="LB-logo-icon" opacity=".8" fill="none" stroke="#fff" stroke-width="2.8829711700000002" stroke-miterlimit="10" d="M205 11.24L289.26 95.5 205 179.757l-84.258-84.258z"/>
+      <path id="lower-diamond" class="LB-logo-icon" fill="none" stroke="#fff" stroke-width="2.883" stroke-opacity="50%" stroke-miterlimit="10" d="M205 179.76l-84.26-67.92L205 29.67l84.26 82.17z"/>
+      <path id="right-lower-line" class="LB-logo-icon st3" d="M272.75 95.98L205 179.76"/>
+      <path id="left-lower-line" class="LB-logo-icon st3" d="M205 179.76l-67.75-83.78"/>
+      <path id="logo-L" class="LB-logo-icon icon-letter st4" d="M176.35 82.71h7.47v26.2h16.19V115h-23.66V82.71z"/>
+      <path id="logo-B" class="LB-logo-icon icon-letter st4" d="M232.25 101.14c1.05 1.37 1.57 3.05 1.57 5.05 0 2.83-1.1 5-3.3 6.53-2.2 1.52-5.4 2.28-9.62 2.28h-16.7V82.71h15.78c3.94 0 6.96.75 9.06 2.26 2.11 1.51 3.16 3.55 3.16 6.13 0 1.57-.38 2.97-1.13 4.2-.75 1.23-1.81 2.2-3.16 2.91 1.85.59 3.3 1.56 4.34 2.93zm-20.61-12.8v7.61h7.43c1.85 0 3.24-.32 4.2-.97.95-.65 1.43-1.6 1.43-2.86 0-1.26-.48-2.21-1.43-2.84-.95-.63-2.35-.95-4.2-.95h-7.43zm13.17 20.07c1-.65 1.5-1.64 1.5-3 0-2.68-1.98-4.01-5.95-4.01h-8.72v7.98h8.72c1.96 0 3.45-.33 4.45-.97z"/>
+      <path id="name-L" class="LB-logo-name st4" d="M.68 217.62h3.33v28.62h17.64v2.88H.68v-31.5z"/>
+      <path id="name-I" class="LB-logo-name st4" d="M27.18 217.62h3.33v31.5h-3.33v-31.5z"/>
+      <path id="name-Z" class="LB-logo-name st4" d="M63.5 246.24v2.88H37.67v-2.29l20.88-26.33H37.98v-2.88h24.98v2.29l-20.83 26.33H63.5z"/>
+      <path id="name-B1" class="LB-logo-name st4" d="M106.5 235.56c1.12 1.33 1.69 3.05 1.69 5.15 0 2.7-1 4.78-2.99 6.23-2 1.46-4.94 2.18-8.84 2.18h-14.5v-31.5h13.59c3.51 0 6.23.71 8.17 2.12 1.93 1.41 2.9 3.41 2.9 5.98 0 1.74-.43 3.22-1.28 4.43s-2.03 2.12-3.53 2.72c2.06.46 3.66 1.35 4.79 2.69zm-21.31-15.19v11.43h10.04c2.55 0 4.51-.49 5.9-1.46 1.38-.97 2.07-2.39 2.07-4.25 0-1.86-.69-3.28-2.07-4.25-1.38-.97-3.35-1.46-5.9-1.46H85.19zm17.5 24.57c1.44-.96 2.16-2.46 2.16-4.5 0-3.93-2.85-5.9-8.55-5.9H85.19v11.83H96.3c2.82.01 4.95-.47 6.39-1.43z"/>
+      <path id="name-R1" class="LB-logo-name st4" d="M137.3 249.12L130.1 239c-.81.09-1.65.13-2.52.13h-8.46v9.99h-3.33v-31.5h11.79c4.02 0 7.17.96 9.45 2.88 2.28 1.92 3.42 4.56 3.42 7.92 0 2.46-.62 4.54-1.87 6.23-1.25 1.7-3.02 2.92-5.33 3.67l7.7 10.8h-3.65zm-2.66-14.89c1.65-1.38 2.48-3.32 2.48-5.81 0-2.55-.83-4.51-2.48-5.87s-4.04-2.05-7.15-2.05h-8.37v15.79h8.37c3.12.01 5.5-.68 7.15-2.06z"/>
+      <path id="name-U" class="LB-logo-name st4" d="M151.47 245.88c-2.28-2.34-3.42-5.74-3.42-10.21v-18.04h3.33v17.91c0 3.66.82 6.39 2.48 8.19 1.65 1.8 4.03 2.7 7.15 2.7 3.15 0 5.55-.9 7.2-2.7 1.65-1.8 2.48-4.53 2.48-8.19v-17.91h3.24v18.04c0 4.47-1.13 7.88-3.4 10.21-2.27 2.34-5.44 3.51-9.52 3.51-4.08 0-7.26-1.17-9.54-3.51z"/>
+      <path id="name-N" class="LB-logo-name st4" d="M210.29 217.62v31.5h-2.74l-20.25-25.56v25.56h-3.33v-31.5h2.74L207 243.18v-25.56h3.29z"/>
+      <path id="name-G" class="LB-logo-name st4" d="M242.73 233.37h3.19v12.01c-1.47 1.29-3.21 2.28-5.22 2.97-2.01.69-4.12 1.03-6.34 1.03-3.15 0-5.99-.69-8.5-2.07-2.52-1.38-4.5-3.29-5.94-5.74s-2.16-5.18-2.16-8.21c0-3.03.72-5.77 2.16-8.21 1.44-2.44 3.42-4.36 5.94-5.74 2.52-1.38 5.37-2.07 8.55-2.07 2.4 0 4.6.38 6.62 1.15 2.01.76 3.7 1.9 5.08 3.4l-2.07 2.11c-2.49-2.46-5.66-3.69-9.5-3.69-2.55 0-4.85.56-6.91 1.69-2.06 1.12-3.67 2.68-4.84 4.68s-1.75 4.22-1.75 6.68.58 4.68 1.75 6.66c1.17 1.98 2.77 3.54 4.82 4.68 2.04 1.14 4.33 1.71 6.88 1.71 3.24 0 5.99-.81 8.24-2.43v-10.61z"/>
+      <path id="name-R2" class="LB-logo-name st4" d="M276.84 249.12l-7.2-10.12c-.81.09-1.65.13-2.52.13h-8.46v9.99h-3.33v-31.5h11.79c4.02 0 7.17.96 9.45 2.88 2.28 1.92 3.42 4.56 3.42 7.92 0 2.46-.62 4.54-1.87 6.23-1.25 1.7-3.02 2.92-5.33 3.67l7.7 10.8h-3.65zm-2.65-14.89c1.65-1.38 2.47-3.32 2.47-5.81 0-2.55-.83-4.51-2.47-5.87-1.65-1.37-4.04-2.05-7.16-2.05h-8.37v15.79h8.37c3.12.01 5.51-.68 7.16-2.06z"/>
+      <path id="name-A" class="LB-logo-name st4" d="M307.62 240.71h-17.55l-3.78 8.42h-3.46l14.4-31.5h3.29l14.4 31.5h-3.51l-3.79-8.42zm-1.21-2.7l-7.56-16.92-7.56 16.92h15.12z"/>
+      <path id="name-B2" class="LB-logo-name st4" d="M344.77 235.56c1.12 1.33 1.69 3.05 1.69 5.15 0 2.7-1 4.78-2.99 6.23-2 1.46-4.94 2.18-8.84 2.18h-14.49v-31.5h13.59c3.51 0 6.23.71 8.17 2.12 1.93 1.41 2.9 3.41 2.9 5.98 0 1.74-.43 3.22-1.28 4.43-.86 1.21-2.03 2.12-3.53 2.72 2.06.46 3.65 1.35 4.78 2.69zm-21.31-15.19v11.43h10.04c2.55 0 4.51-.49 5.89-1.46s2.07-2.39 2.07-4.25c0-1.86-.69-3.28-2.07-4.25-1.38-.97-3.34-1.46-5.89-1.46h-10.04zm17.51 24.57c1.44-.96 2.16-2.46 2.16-4.5 0-3.93-2.85-5.9-8.55-5.9h-11.12v11.83h11.12c2.82.01 4.95-.47 6.39-1.43z"/>
+      <path id="name-E" class="LB-logo-name st4" d="M376.34 246.24v2.88h-22.28v-31.5h21.6v2.88h-18.27v11.21h16.29v2.83h-16.29v11.7h18.95z"/>
+      <path id="name-R3" class="LB-logo-name st4" d="M405.67 249.12l-7.2-10.12c-.81.09-1.65.13-2.52.13h-8.46v9.99h-3.33v-31.5h11.79c4.02 0 7.17.96 9.45 2.88 2.28 1.92 3.42 4.56 3.42 7.92 0 2.46-.62 4.54-1.87 6.23-1.25 1.7-3.02 2.92-5.33 3.67l7.7 10.8h-3.65zm-2.65-14.89c1.65-1.38 2.47-3.32 2.47-5.81 0-2.55-.83-4.51-2.47-5.87-1.65-1.37-4.04-2.05-7.16-2.05h-8.37v15.79h8.37c3.13.01 5.51-.68 7.16-2.06z"/>
+    </svg>
+  </section>
+
+  <section class="section-intro lt-bg">
+
+    <div id="menuNav">
+      <button id="menuBtn" class="button menu">Menu</button>
+
+      <ul id="navbar" class="nav">
+        <li><a href="index.html"><span>Home</span></a></li>
+        <li><a href="#challenge"><span>The Challenge</span></a></li>
+        <li><a href="#work"><span>The Work</span></a></li>
+        <li><a href="#results"><span>The Results</span></a></li>
+        <li><a href="#contact"><span>Contact Me</span></a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h1 data-aos="fade">TDS Telecom Address Entry Experience <span>Case Study</span></h1>
+      <div class="card featured-img" data-aos="fade-up">
+        <img src="images/case-studies/address-entry/case-study-address-entry-mockup.jpg" class="img-fluid featured" alt="TDS Telecom Address Entry site on multiple devices">
+      </div>
+      <a id="challenge" class="anchor"></a>
+      <h2 data-aos="fade-up">The Challenge</h2>
+      <p data-aos="fade-up">TDS Telecom serves almost 900 rural, suburban, and metropolitan communities in over 25 states across the U.S. For the past several years, TDS was worked to increase its reach by acquiring cable companies, building networks in new territories, and expanding existing build areas. While the customer facing websites and marketing materials have been visually updated to match the TDS brand, potential TDS customers must order their services at a specific website depending upon their address.</p>
+      <p data-aos="fade-up">Unfortunately, our site visitors were having trouble getting to the right website for their experience. The backend systems also took too much time looking up the entered address so that the site can display the correct messaging in order to better direct the user on where to go.</p>
+      <img data-aos="fade-up" src="images/case-studies/address-entry/tds-address-entry-diagram--desktop.jpg" class="img-fluid infographic visible-lg" alt="TDS User decision">
+      <img data-aos="fade-up" src="images/case-studies/address-entry/tds-address-entry-diagram--tablet.jpg" class="img-fluid infographic visible-md" alt="TDS User decision">
+      <img data-aos="fade-up" src="images/case-studies/address-entry/tds-address-entry-diagram--mobile.jpg" class="img-fluid infographic visible-sm" alt="TDS User decision">
+
+    </div>
+  </section>
+
+  <section class="section-role blue-bg">
+    <div class="container reverse">
+      <a id="work" class="anchor"></a>
+      <h2 data-aos="fade-up">The Work</h2>
+      <div class="card" data-aos="fade-up">
+        <h3>Write User Flows</h3>
+        <p>Before the software developers could finish their work on the backend, I had to document all of the user types and scenarios the system was expected to handle. After several meetings and a lot of collaboration with IT, the project owner, and marketing, the final documentation captured over 100 user flows. Because of the number of flows and the project timeline, flow diagrams were only used for some of the more complicated cases.</p>
+
+        <a href="#flowDoc" rel="modal:open">View User Flow Documentation</a>
+
+        <div id="flowDoc" class="modal has-image">
+          <p class="modal-heading">User Flow Documentation</p>
+          <img src="images/case-studies/address-entry/checksa-user-flow-wiki.png" class="img-fluid" alt="User Flow Documentation Image Thumbnail">
+          <a href="#" rel="modal:close" class="btn">Close</a>
+        </div>
+
+        <a href="#flowDiagram" rel="modal:open">View Flow Diagram Example</a>
+
+        <div id="flowDiagram" class="modal has-image">
+          <p class="modal-heading">Flow Diagram Example</p>
+          <img src="images/case-studies/address-entry/Telecom-to-Cable-Flow-Page.jpg" class="img-fluid" alt="User Flow Diagram Image Thumbnail">
+          <a href="#" rel="modal:close" class="btn">Close</a>
+        </div>
+      </div>
+      <div class="card" data-aos="fade-up">
+        <h3>Design Intercept Pages</h3>
+        <p>After the user flows were written, we had to decide how the system would let users know that they had to finish their experience on another site. We kept the messaging short and I used yellow alerts as a visual cue whenever customers were being directed to leave their current site. We also had to make sure that the proper analytics were in place so that we would know whether our work was successful. To help with that, each intercept had its own unique URL to make tracking easier in Google Analytics.</p>
+        <img src="images/case-studies/address-entry/case-study-address-entry-showcase.jpg" class="img-fluid featured" alt="TDS TV+ Product Launch Image">
+      </div>
+      <div class="card" data-aos="fade-up">
+        <h3>Document Component Requirents</h3>
+        <p>All of the main websites are built using the Adobe Experience Manager (AEM) content management system (CMS). In order to make sure we could quickly make content or copy changes to the intercept pages if we find that users are struggling with the experience, we have to put that content into AEM components. While a lot of the components were created before this project, I had to work closely with the software developer to define and document what the component will allow the site author to edit. I also have to supply HTML and CSS at this stage by directly contributing to the Github code repository.</p>
+        <div class="modal-links">
+          <a href="#compReqs1" rel="modal:open">Address Entry Component</a>
+          <a href="#compReqs2" rel="modal:open">Pending Fiber Button Component</a>
+          <a href="#compReqs3" rel="modal:open">Verify Address Component</a>
+        </div>
+        <div id="compReqs1" class="modal has-image">
+          <p class="modal-heading">Address Entry Component Requirements</p>
+          <img src="images/case-studies/address-entry/component-requirements/add-entry-comp-req.png" class="img-fluid" alt="Address Entry Component Requirements Image">
+          <a href="#" rel="modal:close" class="btn">Close</a>
+        </div>
+        <div id="compReqs2" class="modal has-image">
+          <p class="modal-heading">Pending Fiber Button Component Requirements</p>
+          <img src="images/case-studies/address-entry/component-requirements/fiber-button-comp-req.png" class="img-fluid" alt="Pending Fiber Button Component Requirements Image">
+          <a href="#" rel="modal:close" class="btn">Close</a>
+        </div>
+        <div id="compReqs3" class="modal has-image">
+          <p class="modal-heading">Verify Address Component Requirements</p>
+          <img src="images/case-studies/address-entry/component-requirements/form-address-verify-comp-req.png" class="img-fluid" alt="Verify Address Component Requirements Image">
+          <a href="#" rel="modal:close" class="btn">Close</a>
+        </div>
+      </div>
+      <div class="card" data-aos="fade-up">
+        <h3>Author Web Pages</h3>
+        <p>During the course of writing the user flows, I found that I would have to update 10 pages and add over 40 more across all four domains. The URLs were also updated to replace technical jargon with more user friendly words.</p>
+        <a href="#pageList" rel="modal:open">View List of Pages</a>
+        <div id="pageList" class="modal has-image">
+          <p class="modal-heading">List of Pages</p>
+          <img src="images/case-studies/address-entry/checksa-page-list.png" class="img-fluid" alt="Page List Image">
+          <a href="#" rel="modal:close" class="btn">Close</a>
+        </div>
+      </div>
+      <div class="card" data-aos="fade-up">
+        <h3>Quality Assurance Testing</h3>
+        <p>We didn't have a dedicated QA team to help out with testing on this project so I had to make sure I was extra diligent about checking my own work before handing things off to IT as well as checking the work again after IT implementation in the development environment.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section-results lt-bg">
+
+    <div class="container">
+      <a id="results" class="anchor"></a>
+      <h2 data-aos="fade-up">The Results</h2>
+      <p data-aos="fade-up">Our web analyst compared data 30 days prior to project launch and 30 days after project launch. The results were extremely positive with the largest impact in traffic flowing from tdsfiber.com to tdstelecom.com.</p>
+      <p data-aos="fade-up" class="call-out">Referral visits increased by <span class="bold">31%</span> and orders increased by <span class="bold">42%</span>.</p>
+      <img src="images/case-studies/address-entry/checksa-results-fiber-to-telecom--desktop.jpg" class="img-fluid infographic visible-lg visible-md" alt="Referral visits from tdsfiber.com to tdstelecom.com increased by 31%. Orders increased on tdstelecom.com by 42%." data-aos="fade-up">
+      <img src="images/case-studies/address-entry/checksa-results-fiber-to-telecom--mobile.jpg" class="img-fluid infographic visible-sm" alt="Referral visits from tdsfiber.com to tdstelecom.com increased by 31%. Orders increased on tdstelecom.com by 42%." data-aos="fade-up">
+      <p data-aos="fade-up">Other positive results include increased traffic conversions to tdstelecom.com from other sites.</p>
+      <p data-aos="fade-up" class="call-out">Referral visits from hellotds.com increased by <span class="bold">71%</span>.</p>
+      <img src="images/case-studies/address-entry/checksa-results-telecom-referral--desktop.jpg" class="img-fluid infographic visible-lg visible-md" alt="Referral visits to tdstelecom.com from hellotds.com increased by 71%; from tdsbusiness.com by 10%, from bendbroadband.com by 9%." data-aos="fade-up">
+      <img src="images/case-studies/address-entry/checksa-results-telecom-referral--mobile.jpg" class="img-fluid infographic visible-sm" alt="Referral visits to tdstelecom.com from hellotds.com increased by 71%; from tdsbusiness.com by 10%, from bendbroadband.com by 9%." data-aos="fade-up">
+      <p data-aos="fade-up" class="call-out-box">The team worked extremely well together and met the deadline by staying in constant communication throughout the life cycle of the project. Because of the improvement to the address entry experience, users were given faster feedback and more clarity on which site would meet their needs. We originally predicted the conversion rates (percentage of visits that turn into web orders) would improve by 2% but we exceeded that goal several times over.</p>
+    </div>
+
+  </section>
+
+  <section class="section-contact darkest-blue-bg--gradient">
+
+    <a id="contact" class="anchor"></a>
+
+    <div class="container reverse" data-aos="fade" data-aos-duration="1200">
+      <h1>Contact Me</h1>
+      <ul class="contact-links">
+        <li>
+          <a href="https://www.linkedin.com/in/lizbrungraber/" target="_blank" aria-label="View My LinkedIn Profile">
+                 <span class="link-display-text">View My LinkedIn Profile</span>
+             </a>
+        </li>
+        <li>
+          <a href="mailto:justlizzay@gmail.com" aria-label="Email Me">
+                 <span class="link-display-text">Email Me</span>
+             </a>
+        </li>
+      </ul>
+      <footer>
+        <p>&copy; 2021 Liz Brungraber. All Rights Reserved.</p>
+      </footer>
+    </div>
+
+  </section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript">
+    AOS.init({
+      duration: 1000,
+    })
+    window.onscroll = function() {
+      stickyMenu()
+    };
+
+    var header = document.getElementById("menuNav");
+    var sticky = header.offsetTop;
+
+    function stickyMenu() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+
+    $("#menuBtn").click(function() {
+      $("#navbar").slideToggle();
+    });
+
+    $(window).resize(function() {
+      var width = $(document).width();
+      if (width >= 566) {
+        $("#navbar").css("display", "block");
+      } else {
+        $("#navbar").css("display", "none");
+      }
+    });
+  </script>
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.modal.min.css" />
+
+</body>
+
+</html>

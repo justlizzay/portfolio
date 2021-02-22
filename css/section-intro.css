@@ -1,5 +1,8 @@
 /* SECTION INTRO
 ================= */
+.home .section-intro .container {
+    padding-top: 100px;
+}
 
 .section-intro .container {
   max-width: 860px;
@@ -7,7 +10,6 @@
 }
 
 .section-intro h1 {
-  margin-top: 100px;
   margin-bottom: 60px;
 }
 

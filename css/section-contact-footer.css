@@ -18,7 +18,8 @@
 .contact-links li {
   display: inline-block;
   border-right: solid 1px white;
-  padding-right: 4px;
+  padding-right: 0;
+  margin-right: -4px;
 }
 
 .contact-links li:last-child {
@@ -26,18 +27,17 @@
 }
 
 .contact-links a {
-    color: #fff;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
-    background-position: 0 100%;
-    background-size: 100% 200%;
-    transition: all .2s;
-    padding: 10px 12px;
+  color: #fff;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+  background-position: 0 100%;
+  background-size: 100% 200%;
+  transition: all .2s;
+  padding: 6px 16px;
 }
 
-.contact-links a:hover,
-.contact-links a:focus {
-    background-position: 0 0;
-    text-decoration: none;
+.contact-links a:hover, .contact-links a:focus {
+  background-position: 0 0;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 480px) {

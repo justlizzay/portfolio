@@ -1,5 +1,6 @@
 /* BASE STYLES
 ============== */
+
 html {
   scroll-behavior: smooth;
 }
@@ -81,22 +82,27 @@ p {
   width: 100%;
   z-index: 10;
   background: #e1e1e1;
-  -moz-box-shadow:    0px 0px 8px 4px rgb(0 0 0 / 40%);
+  -moz-box-shadow: 0px 0px 8px 4px rgb(0 0 0 / 40%);
   -webkit-box-shadow: 0px 0px 8px 4px rgb(0 0 0 / 40%);
-  box-shadow:         0px 0px 8px 4px rgb(0 0 0 / 40%);
+  box-shadow: 0px 0px 8px 4px rgb(0 0 0 / 40%);
 }
 
 .lt-bg {
   border-top: solid 8px #c3c5ca;
   border-bottom: solid 8px #c3c5ca;
-  -moz-box-shadow:    0px 0px 12px 6px rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0px 0px 12px 6px rgb(0 0 0 / 20%);
   -webkit-box-shadow: 0px 0px 12px 6px rgb(0 0 0 / 20%);
-  box-shadow:         0px 0px 12px 6px rgb(0 0 0 / 20%);
+  box-shadow: 0px 0px 12px 6px rgb(0 0 0 / 20%);
   background: white;
 }
 
-.header + .lt-bg {
-    border-top: none;
+.header+.lt-bg {
+  border-top: none;
+}
+
+.lt-bg+.lt-bg {
+  border-top: 0;
+  box-shadow: none;
 }
 
 .blue-bg {
@@ -104,7 +110,7 @@ p {
 }
 
 .blue-bg--gradient {
-  background: radial-gradient(circle at top, rgba(145,152,167,1) 0%, rgba(72,85,113,1) 80%);
+  background: radial-gradient(circle at top, rgba(145, 152, 167, 1) 0%, rgba(72, 85, 113, 1) 80%);
 }
 
 .dk-blue-bg {
@@ -112,5 +118,61 @@ p {
 }
 
 .darkest-blue-bg--gradient {
-  background: radial-gradient(circle at bottom, rgba(57,61,72,1) 0%, rgba(32,37,51,1) 90%);
+  background: radial-gradient(circle at bottom, rgba(57, 61, 72, 1) 0%, rgba(32, 37, 51, 1) 90%);
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+  .anchor {
+    top: -60px;
+  }
+}
+
+.reverse a {
+  font-size: 14px;
+  color: #fff;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+  background-position: 0 100%;
+  background-size: 100% 200%;
+  transition: all .2s;
+  padding: 6px 12px;
+  display: inline-block;
+  line-height: 2;
+}
+
+.reverse a:hover, .reverse a:focus {
+  background-position: 0 0;
+  text-decoration: none;
+}
+
+.reverse a+a {
+  display: inline-block;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+  .reverse a {
+    display: block;
+    line-height: 1.5;
+  }
+}
+
+p+img {
+  margin-top: 20px;
+}
+
+.reverse .card a {
+  text-decoration: none;
+  border: solid 1px;
+  margin: 20px 8px 0;
+}
+
+.reverse .card a:hover, .reverse .card a:focus {
+  border-color: transparent;
 }
