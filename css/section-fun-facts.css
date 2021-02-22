@@ -1,20 +1,21 @@
 /* SECTION FUN FACTS
 ==================== */
 
-.fun-facts {
-  background: #485571;
+.section-fun-facts {
   padding-bottom: 28px;
 }
 
-.fun-facts .container {
+.section-fun-facts .container {
   padding-top: 80px;
+  padding-bottom: 40px;
 }
 
-.fun-facts h1 {
+.section-fun-facts h1 {
   margin-bottom: 100px;
+  margin-top: 60px;
 }
 
-.fun-facts .item {
+.section-fun-facts .card {
   background: rgba(43, 51, 73, .75);
   padding: 0px 40px 16px 40px;
   max-width: 600px;
@@ -24,7 +25,7 @@
   z-index: 5;
 }
 
-.fun-facts img {
+.section-fun-facts img {
   margin-top: -50px;
   max-width: 100px;
   margin-bottom: 20px;
