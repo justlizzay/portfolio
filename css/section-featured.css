@@ -10,12 +10,19 @@
   margin-top: -180px;
 }
 
+
 .section-featured .card {
   max-width: 960px;
   margin: 50px auto;
   position: relative;
   z-index: 1;
   margin-top: 60px;
+}
+
+@media only screen and (max-width: 480px) {
+  .section-featured .card {
+    margin-top: 20px;
+  }
 }
 
 img.featured {
@@ -34,7 +41,7 @@ h2.project-name span {
   padding: 12px 14px;
   position: relative;
   top: 12px;
-font-size: 20px;
+  font-size: 20px;
   color: black;
   text-shadow: none;
   text-transform: initial;
@@ -43,7 +50,9 @@ font-size: 20px;
 @media only screen and (max-width: 480px) {
   h2.project-name span {
     display: block;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.25;
+    top: 0px;
   }
 }
 
