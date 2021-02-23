@@ -271,15 +271,17 @@
       var width = $(document).width();
       if (width >= 566) {
         $("#navbar").css("display", "block");
+        $(document).on("click", function () {
+          $("#navbar").show();
+        });
       } else {
         $("#navbar").css("display", "none");
+        $(document).on("click", function () {
+          $("#navbar").hide();
+        });
       }
     });
 
-    $(document).on("click", function () {
-      $("#navbar").hide();
-    });
-    
     $("#menuBtn").click(function() {
       $("#navbar").slideToggle();
       event.stopPropagation();

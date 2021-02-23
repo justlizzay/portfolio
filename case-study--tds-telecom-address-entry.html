@@ -214,20 +214,22 @@
       var width = $(document).width();
       if (width >= 566) {
         $("#navbar").css("display", "block");
+        $(document).on("click", function () {
+          $("#navbar").show();
+        });
       } else {
         $("#navbar").css("display", "none");
+        $(document).on("click", function () {
+          $("#navbar").hide();
+        });
       }
-    });
-
-    $(document).on("click", function () {
-      $("#navbar").hide();
     });
 
     $("#menuBtn").click(function() {
       $("#navbar").slideToggle();
       event.stopPropagation();
     });
-    
+
   </script>
   <!-- jQuery Modal -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
