@@ -13,7 +13,7 @@
 .nav li {
   display: inline-block;
   background-color: #e1e1e1;
-  margin: -1px -3px;
+  margin: 0 -3px;
 }
 
 .nav>li>a {
