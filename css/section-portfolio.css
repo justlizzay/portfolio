@@ -28,6 +28,12 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .gallery {
+    grid-gap: 28px;
+  }
+}
+
 .gallery .card {
   max-width: 720px;
   margin: 0 auto;

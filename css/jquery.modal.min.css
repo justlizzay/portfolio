@@ -55,6 +55,12 @@
   border: solid 4px #e1e1e1;
 }
 
+@media only screen and (max-width: 640px) {
+  .modal {
+    padding: 16px;
+  }
+}
+
 .modal a.close-modal {
   position: absolute;
   top: -4px;
