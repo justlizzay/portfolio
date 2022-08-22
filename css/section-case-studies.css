@@ -118,6 +118,10 @@
   box-shadow: none;
 }
 
+.section-results .container p {
+    text-align: center;
+}
+
 .call-out-box {
   background: #485571;
   padding: 40px;
